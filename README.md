@@ -34,7 +34,7 @@ Fintech loan processing workflow with automated eligibility validation.
 
 **Run Day 2:**
 ```bash
-cd day2
+cd day2-loan
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
@@ -56,7 +56,7 @@ Both projects follow Clean Architecture principles:
 ```
 .
 ├── day1-lms/          # LMS Course Enrollment Platform
-├── day2/              # Loan Application Management System
+├── day2-loan/         # Loan Application Management System
 └── README.md          # This file
 ```
 
